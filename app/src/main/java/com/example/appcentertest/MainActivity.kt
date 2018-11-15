@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
                 Analytics::class.java, Crashes::class.java)
         AppCenter.start(application, "a3817f5e-fc9a-4c07-82fa-d6b83982f042", Push::class.java)
         //val test = ""
-        /*if(test!!){
+        if(test!!){
             println("テスト")
-        }*/
+        }
 
         Analytics.trackEvent("My custom event")
     }
